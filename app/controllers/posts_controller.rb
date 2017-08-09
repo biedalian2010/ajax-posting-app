@@ -12,14 +12,12 @@ class PostsController < ApplicationController
      @post.user = current_user
      @post.save
 
-     redirect_to posts_path
    end
 
    def destroy
      @post = current_user.posts.find(params[:id]) # 只能删除自己的贴文
      @post.destroy
 
-     render :js => "alert('ok');"
    end
 
    protected
