@@ -1,24 +1,7 @@
-# README
+# Ajax 是一种增强 UI 的方式，我们会先把基本功能完成，再根据需要改成 Ajax 效果。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+这一章练习了删除、按讚、新增贴文，画面上比较单纯的按钮型操作，最适合用 Ajax 效果，例如删除、按讚、收藏、加入购物车等等。
+如果是比较复杂的填表单操作，要做 Ajax 效果就会比较费工，因为需要考虑错误处理(储存失败)的情况。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Rails 内建透过 :remote => true 的方式，就可以很快制作出 Ajax 效果。
+再稍后的章节中，我们会示范进阶的用法：在一些情况下，我们必须手写 jQuery 去绑事件送 Ajax，取得 JSON 回传并更新 DOM。
