@@ -10,4 +10,4 @@
 * replaceWith
 * toggle
 * addClass 和 removeClass
-# 其实大部分的 jQuery 代码的工作就是去新增内容、改变 HTML、调整 CSS 等方式操控网页，例如跳出选单、轮播广告、滑动标题图片等等，这些就是执行上述步骤。
+
